@@ -1,10 +1,5 @@
 import "@testing-library/jest-dom";
-import {
-  render,
-  fireEvent,
-  screen,
-  queryAllByText,
-} from "@testing-library/react";
+import { render, fireEvent, screen } from "@testing-library/react";
 import Adiciona from "./componentes/Adiciona";
 
 test("CT01- verifica o estado do contador na inicializacao", () => {
